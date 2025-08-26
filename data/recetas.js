@@ -26,7 +26,7 @@ const recetas = [
         ]
     },
     {
-        "nombre": "Lasagna de Carne",
+        "nombre": "Lasagna",
         "foto": "receta_3.jpg",
         "instrucciones": "Cocinar pasta, hacer salsa de carne, armar capas de pasta, carne, queso ricotta, mozzarella y hornear.",
         "perfil_id": 2,
