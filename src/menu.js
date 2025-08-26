@@ -1,6 +1,6 @@
-import { listarRecetas, getRecetaByName, expandirIngredientes } from "./helpers.js";
+const { listarRecetas, getRecetaByName, expandirIngredientes } = require("./helpers.js");
 
-export function demoMenu() {
+module.exports = () => {
   console.log("📖 Recetas disponibles:");
   listarRecetas().forEach((r) => console.log("- " + r));
 

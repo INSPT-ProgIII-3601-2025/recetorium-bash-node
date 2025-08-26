@@ -1,12 +1,19 @@
-import recetas from "../data/recetas.js";
-import ingredientes from "../data/ingredientes.js";
+const recetas = require("../data/recetas.js");
+const ingredientes = require("../data/ingredientes.js");
 
-export const getIngredienteById = (id) =>
+const getIngredienteById = (id) =>
   "pendiente...";
 
-export const expandirIngredientes = (receta) => "pendiente...";
+const expandirIngredientes = (receta) => "pendiente...";
 
-export const getRecetaByName = (nombre) =>
+const getRecetaByName = (nombre) =>
   "pendiente..."
 
-export const listarRecetas = () => "pendiente..."
+const listarRecetas = () => "pendiente..."
+
+module.exports = {
+  getIngredienteById,
+  expandirIngredientes,
+  getRecetaByName,
+  listarRecetas
+}
