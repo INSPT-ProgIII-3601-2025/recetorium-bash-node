@@ -10,7 +10,7 @@ module.exports = () => {
 
   console.log("\n🥗 Ingredientes expandidos:");
   const lista = expandirIngredientes(receta);
-  lista.forEach((ing) =>
-    console.log(`- ${ing.nombre}: ${ing.cantidad} ${ing.unidad}`)
+  lista.forEach(({nombre, cantidad, unidad_medida}) =>
+    console.log(`- ${nombre}: ${cantidad} ${unidad_medida}`)
   );
 }
